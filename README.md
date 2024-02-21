@@ -9,4 +9,4 @@ This repository provide tools to check if the participants code respect the requ
 https://astro-pi.org/mission-space-lab/rulebook
 and
 https://projects.raspberrypi.org/en/projects/mission-space-lab-creator-guide/5
-to give the best chances to be accepted for run in the International Space Station 
+to give them the best chances to be allowed to run their code in the International Space Station 
