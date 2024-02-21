@@ -137,7 +137,7 @@ fi
 invalid_files=$(ls | grep -vE "\.($allowed_extensions)$")
 
 if [ -z "$invalid_files" ]; then
-    echo "All files in the current directory have allowed extensions."
+    continue
 else
     echo "The following files in the current directory have disallowed extensions:"
     echo "$invalid_files"
@@ -155,3 +155,5 @@ else
     echo "Total size of files in the current directory exceeds the limit."
     exit 1
 fi
+
+echo "SUCCESS"
